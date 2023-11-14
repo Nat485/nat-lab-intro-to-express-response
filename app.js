@@ -18,6 +18,10 @@ app.get("/tim-gunn", (req, res) => {
   });
 
 
+app.get("/emril", (req, res) => {
+    res.send("Bam!");
+  });
+
 //Listen
 
 app.listen(3003, ()=> {

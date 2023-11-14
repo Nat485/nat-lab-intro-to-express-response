@@ -75,10 +75,10 @@ For example:
 Test by going to http://localhost:3003/tim-gunn
 
 **Thought questions**
-- What characters are allowed in a URL?
-- What happens if you try to create a URL `/tim gunn`
-- Is there a difference between `/timgunn` and `/TimGunn` and `/tim/gunn`?
-- If you have a phrase like `Here's looking at you, kid`, how do you deal with the `'` in `Here's`?
+- What characters are allowed in a URL? Characters that are allowed in the URL are: string, alphabetic characters, numerals, and a few special characters.
+- What happens if you try to create a URL `/tim gunn`- It will not work because the url cannot contain any spaces.
+- Is there a difference between `/timgunn` and `/TimGunn` and `/tim/gunn`? All do not match the string and format what was used in the code for app.get
+- If you have a phrase like `Here's looking at you, kid`, how do you deal with the `'` in `Here's`? You leave the apostrophe out since the apostrophe is a reserved character. The proper way to write it in the url will be 'Heres'.
 
 <hr />
 
