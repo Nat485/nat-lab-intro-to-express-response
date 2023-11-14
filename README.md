@@ -140,7 +140,7 @@ Check terminal:
 
 </details>
 
-What does this error message mean?
+What does this error message mean? It is attempting to send two responses at the same time. 
 
 <details><summary>Hint/Reminder</summary>
 
