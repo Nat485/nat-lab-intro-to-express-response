@@ -22,7 +22,12 @@ app.get("/emril", (req, res) => {
     res.send("Bam!");
   });
 
-//Listen
+app.get("/hannibal-smith", (req, res) => {
+    res.send("I love it when a plan comes together");
+  });
+
+
+  //Listen
 
 app.listen(3003, ()=> {
     console.log('listening on port ${PORT}')
